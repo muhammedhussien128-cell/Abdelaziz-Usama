@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root, [data-theme="dark"], html.dark {
+  --bg-main: #071225;
+  --bg-secondary: #0B1730;
+  --bg-nav: #081329;
+  --bg-card: #101F3B;
+  --bg-elevated: #152747;
+  --border-muted: #233B61;
+  --text-primary: #F5F8FF;
+  --text-secondary: #B8C7DF;
+  --text-muted: #8FA4C4;
+  --accent-primary: #3B82F6;
+  --accent-bright: #60A5FA;
+  --accent-hover: #2563EB;
+  --accent-light: rgba(59, 130, 246, 0.16);
+  --accent-contrast: #FFFFFF;
+  --bg-hover: #182C52;
+  --shadow-color: rgba(0, 0, 0, 0.45);
+  --glow-shadow: 0 0 20px rgba(59, 130, 246, 0.25);
+}
+
+[data-theme="light"], html:not(.dark)[data-theme="light"] {
+  --bg-main: #F5F8FF;
+  --bg-secondary: #EAF1FF;
+  --bg-nav: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-elevated: #F0F5FF;
+  --border-muted: #D8E3F5;
+  --text-primary: #14213D;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --accent-primary: #2563EB;
+  --accent-bright: #3B82F6;
+  --accent-hover: #1D4ED8;
+  --accent-light: rgba(59, 130, 246, 0.08);
+  --accent-contrast: #FFFFFF;
+  --bg-hover: #E2ECFE;
+  --shadow-color: rgba(20, 33, 61, 0.08);
+  --glow-shadow: 0 0 15px rgba(37, 99, 235, 0.15);
+}
+
+* {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+}
+
+.theme-bg-main { background-color: var(--bg-main); }
+.theme-bg-secondary { background-color: var(--bg-secondary); }
+.theme-bg-nav { background-color: var(--bg-nav); }
+.theme-bg-card { background-color: var(--bg-card); }
+.theme-bg-elevated { background-color: var(--bg-elevated); }
+.theme-border { border-color: var(--border-muted); }
+
+.theme-text-primary { color: var(--text-primary); }
+.theme-text-secondary { color: var(--text-secondary); }
+.theme-text-muted { color: var(--text-muted); }
+.theme-text-accent { color: var(--accent-primary); }
+.theme-text-bright { color: var(--accent-bright); }
+
+.theme-bg-accent { background-color: var(--accent-primary); color: var(--accent-contrast); }
+.theme-bg-accent:hover { background-color: var(--accent-hover); }
+.theme-bg-accent-light { background-color: var(--accent-light); }
+
+.theme-hover-bg:hover { background-color: var(--bg-hover); }
+.theme-glow { box-shadow: var(--glow-shadow); }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-main); }
+::-webkit-scrollbar-thumb { background: var(--border-muted); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-primary); }

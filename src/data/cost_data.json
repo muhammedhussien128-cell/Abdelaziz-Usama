@@ -1,0 +1,135 @@
+{
+  "summary": {
+    "capacity_production": 465165,
+    "variance_quantity": 3657,
+    "high_order_companies_count": 18,
+    "role": "محاسب تكاليف ومحلل بيانات إنتاجية",
+    "person_name": "عبدالعزيز أسامة محمود"
+  },
+  "top_variance_products": [
+    {
+      "name": "جل كريم سنيور بالبانثينول الشكل القديم 250 جم",
+      "variance": 804
+    },
+    {
+      "name": "جل شفاف سنيور 250 جم (Senior mega hard styling gel)",
+      "variance": 798
+    },
+    {
+      "name": "سنيور كريم لتصفيف الشعر 225 جم",
+      "variance": 438
+    },
+    {
+      "name": "سنيور كريم لتصفيف الشعر بزيت الجرجير 2000 مل",
+      "variance": 400
+    },
+    {
+      "name": "هير كريم نيفين زبدة شيا 150 جرام * 48 قطعة",
+      "variance": 312
+    },
+    {
+      "name": "سنيور كريم للشعر بزيت الأرجان وحوز الهند وزبدة الشيا",
+      "variance": 310
+    },
+    {
+      "name": "جل أسود سنيور 250 جم",
+      "variance": 272
+    },
+    {
+      "name": "جل أخضر سنيور 250 جم",
+      "variance": 216
+    },
+    {
+      "name": "جل أصفر سنيور 250 جم",
+      "variance": 72
+    },
+    {
+      "name": "Nexo Baby & Kids Body Wash 150ml",
+      "variance": 29
+    }
+  ],
+  "top_sales_products": [
+    {
+      "name": "هيرواكس أسود 1000 جم (Honey wax & Vitamin E)",
+      "sales": 86384
+    },
+    {
+      "name": "سنيور كريم زبدة شيا 225 جم",
+      "sales": 59558
+    },
+    {
+      "name": "جل شفاف سنيور 250 جم",
+      "sales": 28290
+    },
+    {
+      "name": "سنيور كريم لتصفيف الشعر بزيت الجرجير 2000 مل",
+      "sales": 23226
+    },
+    {
+      "name": "سنيور كريم جل 225 جم",
+      "sales": 22788
+    },
+    {
+      "name": "جل أسود سنيور 250 جم",
+      "sales": 21592
+    },
+    {
+      "name": "سنيور هارد هير واكس (أحمر) 1000 جم (Rock Wax)",
+      "sales": 18882
+    },
+    {
+      "name": "سنيور كريم للشعر بزيت الأرجان وحوز الهند وزبدة الشيا",
+      "sales": 18294
+    },
+    {
+      "name": "سنيور كريم لتصفيف الشعر بصل النحل الطبيعي",
+      "sales": 17804
+    },
+    {
+      "name": "هيرلايف جل 275 مل * 24 قطعة",
+      "sales": 16798
+    }
+  ],
+  "company_production_orders": [
+    {
+      "company": "Senor",
+      "orders": 141
+    },
+    {
+      "company": "Leven",
+      "orders": 98
+    },
+    {
+      "company": "Skintune",
+      "orders": 84
+    },
+    {
+      "company": "Wide Wave",
+      "orders": 24
+    },
+    {
+      "company": "Black Gold",
+      "orders": 18
+    },
+    {
+      "company": "Duxgen",
+      "orders": 10
+    },
+    {
+      "company": "Siwa",
+      "orders": 7
+    },
+    {
+      "company": "Purex",
+      "orders": 6
+    },
+    {
+      "company": "Sofico",
+      "orders": 6
+    },
+    {
+      "company": "Sirbest",
+      "orders": 5
+    }
+  ]
+}

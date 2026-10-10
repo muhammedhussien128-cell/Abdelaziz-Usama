@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "total_sales_egp": 1292886,
+    "total_orders": 152,
+    "avg_selling_price_egp": 10261,
+    "top_city": "القاهرة",
+    "top_product": "سرير",
+    "top_color": "أبيض",
+    "delivered_percentage": 81,
+    "canceled_refused_percentage": 18,
+    "on_time_delivery_rate": 4
+  },
+  "sales_by_platform": [
+    {
+      "platform": "هومزمارت",
+      "units": 94
+    },
+    {
+      "platform": "السويس",
+      "units": 19
+    },
+    {
+      "platform": "تاكي",
+      "units": 16
+    },
+    {
+      "platform": "شيك هومز",
+      "units": 13
+    },
+    {
+      "platform": "فيسبوك",
+      "units": 4
+    },
+    {
+      "platform": "كيمت",
+      "units": 3
+    },
+    {
+      "platform": "منزلي",
+      "units": 2
+    }
+  ],
+  "orders_by_area": [
+    {
+      "city": "القاهرة",
+      "orders": 60
+    },
+    {
+      "city": "الجيزة",
+      "orders": 24
+    },
+    {
+      "city": "القليوبية",
+      "orders": 11
+    },
+    {
+      "city": "السويس",
+      "orders": 8
+    },
+    {
+      "city": "الإسكندرية",
+      "orders": 5
+    },
+    {
+      "city": "البحر الأحمر",
+      "orders": 3
+    },
+    {
+      "city": "مطروح",
+      "orders": 2
+    },
+    {
+      "city": "أسيوط",
+      "orders": 1
+    }
+  ],
+  "delivery_breakdown": [
+    {
+      "status": "تم التسليم",
+      "percentage": 81,
+      "color": "#10B981"
+    },
+    {
+      "status": "مرتجع",
+      "percentage": 1,
+      "color": "#F59E0B"
+    },
+    {
+      "status": "مرفوض / ملغاة",
+      "percentage": 18,
+      "color": "#EF4444"
+    }
+  ]
+}
